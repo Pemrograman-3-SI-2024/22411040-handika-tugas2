@@ -1,0 +1,87 @@
+.title {
+ color:rgb(21, 237, 107)   
+}
+body {
+ font-family: Georgia, 'Times New Roman', Times, serif;
+ font-size: 15px;
+ background-color: rgb(20, 20, 20);   
+}
+
+table, td, th {
+  border: 1px solid #ececec;
+  text-align: center;  
+}
+
+table {
+  border-collapse: collapse;
+  width: 50%;  
+}
+
+th, td {
+ padding: 15px;   
+}
+
+.button {
+background-color: rgb(30, 131, 231);
+border:none;
+color: #e7f0f0;
+padding:16px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-flex;
+font-size: 16px;
+margin: 4px 2px;
+transition-duration: 0,7s;
+cursor: pointer;    
+}
+
+.button1 {
+ background-color: white;
+ color: greenyellow;
+ border: 3px solid #e7f0f0 ;   
+}
+
+.button1:hover {
+  background-color: rgb(17, 121, 52);
+  color: white;  
+}
+
+.button2 {
+ background-color: white;
+ color: aquamarine;
+ border: 3px skyblue;
+}
+
+.button2:hover {
+  background-color: bisque;
+  color: white;  
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgb(30, 131, 231);
+  max-width:300px;
+  margin: left;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;  
+}
+
+.price {
+ color: black;
+ font-size: 22px;   
+}
+
+.card button {
+ border: none;
+ outline: #e7f0f0;
+ padding: 12px;
+ color: white;
+ background-color: white;
+ text-align: center;
+ cursor: pointer;
+ width: 50%;
+ font-size: 18px;
+}
+
+.card button:hover {
+ opacity: 0,9;   
+}
